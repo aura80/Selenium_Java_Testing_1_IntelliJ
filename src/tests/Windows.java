@@ -1,5 +1,5 @@
-
-//	Tabs  ,  Windows
+package tests;
+//	Tabs  ,  tests.Windows
 
 
 import java.awt.AWTException;

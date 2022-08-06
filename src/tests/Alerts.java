@@ -1,3 +1,5 @@
+package tests;
+
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -11,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-//   Alerts
+//   tests.Alerts
 
 
 public class Alerts {
@@ -47,9 +49,9 @@ public class Alerts {
 
     public static void alerts() throws InterruptedException {
 
-        // click on Alerts on the left side
+        // click on tests.Alerts on the left side
 
-        WebElement alertsClick = driver.findElement(By.xpath("//div[@class=\"element-list collapse show\"]/ul[@class=\"menu-list\"]//following-sibling::li/span[contains(.,\"Alerts\")]"));
+        WebElement alertsClick = driver.findElement(By.xpath("//div[@class=\"element-list collapse show\"]/ul[@class=\"menu-list\"]//following-sibling::li/span[contains(.,\"tests.Alerts\")]"));
         System.out.println(alertsClick.getText());
 
         WebElement alertsClick2 = driver.findElement(By.xpath("//div[@class=\"accordion\"]/div[3]/div/descendant::li[@id=\"item-1\"]/*"));

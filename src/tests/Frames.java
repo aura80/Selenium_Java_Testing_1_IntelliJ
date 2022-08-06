@@ -1,4 +1,4 @@
-//	Frames
+package tests;//	tests.Frames
 
 import java.awt.AWTException;
 import java.awt.Robot;

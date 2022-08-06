@@ -1,4 +1,4 @@
-
+package tests;
 //    Book Store
 
 import java.awt.AWTException;

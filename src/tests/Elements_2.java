@@ -1,4 +1,4 @@
-
+package tests;
 //  Check Box
 
 import org.junit.Assert;

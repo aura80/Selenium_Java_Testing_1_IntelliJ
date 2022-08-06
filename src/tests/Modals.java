@@ -1,5 +1,5 @@
-
-//  Modals
+package tests;
+//  tests.Modals
 
 import java.awt.AWTException;
 import java.awt.Robot;
