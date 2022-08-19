@@ -331,12 +331,7 @@ public class Tables {
 		System.out.println(sixthColText);
 		
 		System.out.println();
-		
 
-		
-		
-		
 	}
-	
 
 }
